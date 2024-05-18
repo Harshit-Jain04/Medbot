@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 # Load the dataset
-data = pd.read_csv(r"C:/Users/ACER/Documents/dataset.csv")
+data = pd.read_csv(r"dataset.csv")
 
 # Define the features and target
 features = data['Symptoms']
